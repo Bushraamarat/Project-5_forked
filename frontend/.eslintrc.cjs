@@ -13,6 +13,9 @@ module.exports = {
   plugins: ['react-refresh'],
   rules: {
     'react/jsx-no-target-blank': 'off',
+  
+      "no-mixed-spaces-and-tabs": 0, // disable rule
+    
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },

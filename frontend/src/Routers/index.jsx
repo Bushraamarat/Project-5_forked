@@ -17,8 +17,16 @@ import PortFolio from "../pages/PortFolio"
 import Talk from "../pages/LetsTalk"
 import About from "../pages/About"
 import Navbar from "../components/Navbar"
+import Comp404 from "../pages/NotFound"
 export const router= createBrowserRouter(
 [
+   {
+      path:"*",
+      element:  <Comp404/>
+      
+     
+     
+   },
    {
       path:"/",
       element:<>  <Navbar/>
