@@ -25,9 +25,9 @@ const Navbar = () => {
         <div style={{display:'flex',justifyContent: 'space-between'}}>
       <MDBNavbarBrand href='/' style={{marginBlock:'10'}}>
             <img
-              src='https://res.cloudinary.com/dycpjbdto/image/upload/v1708776944/Minimalist_Line_Art_Illustration_Flower_Event_Planner_Logo-removebg-preview11_cmyowh.png'
-              height='90'
-              width='700%'
+              src='https://res.cloudinary.com/dycpjbdto/image/upload/v1708778225/new-removebg-preview_xdfemo.png'
+              height='65'
+              width='600%'
               alt=''
               loading='lazy'
             />
@@ -57,12 +57,12 @@ const Navbar = () => {
             <MDBNavbarLink href='/portfolio'>PortFolio</MDBNavbarLink>
             <MDBNavbarLink href='/letstalk'>Lets Talk!</MDBNavbarLink>
             <MDBNavbarLink href='/AboutUs'>About Us</MDBNavbarLink>
-            <MDBNavbarLink href='/login' >
-                Are You Vendor?
+            <MDBNavbarLink href='/login' style={{color:'#00A3AF'}} >
+                <strong>Are You Vendor?</strong>
               </MDBNavbarLink>
-              <MDBDropdown>
-                <MDBDropdownToggle tag='a' className='nav-link' role='button'>
-Login As:                </MDBDropdownToggle>
+              <MDBDropdown >
+                <MDBDropdownToggle tag='a' className='nav-link' role='button' style={{color:'#00A3AF'}}>
+<strong>Login As:</strong>                </MDBDropdownToggle>
                 <MDBDropdownMenu>
                   <MDBDropdownItem  href='/login' link>Event Planner</MDBDropdownItem>
                   <MDBDropdownItem href='/login' link>Client</MDBDropdownItem>
