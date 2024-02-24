@@ -10,6 +10,7 @@ export default configureStore({
     auth:index,
     serviceProvider: serviceProviderReducer,  
     pendingServices: pendingServicesReducer,
-    packages:packagesReducer
+    packages:packagesReducer,
+    events:eventReducer,
   },
 });
